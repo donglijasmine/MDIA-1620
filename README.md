@@ -11,6 +11,9 @@ Learnings from the 3 2 1
 >3. When googling answers, we can put mdn for professional answers
 >4. You can go to a specific folder or file with the path given. I am waiting for notes of this.
 
+Feedback
+It is difficult for me without any programming knowledge to follow in the first lab. Can Sonja demonstrate each command first, let us try it, and then write notes on the screen, then wait for everyone to write their notes before moving onto the next demonstration of command? That will make it easier for everyone to follow the steps, practice and write down notes to refer to because we won't be able to remember all the small details and functions of the short commands, such as "you need a SPACE before .."
+
 
 3  My "aha" moment is 
 >1. when teacher helped me list the documents on Desktop
