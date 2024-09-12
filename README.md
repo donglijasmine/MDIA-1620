@@ -5,6 +5,13 @@ Liang Dongli
 
 ![Luncheon Meat and Egg Sandwich](https://static5.orstatic.com/userphoto2/photo/1V/1H65/0AI3RWDED90B3699005BEEpx.jpg)
 
+Learnings from the 3 2 1 
+>1. Terminal can be used for quicker access to folders and files
+>2. You can use these things on Terminal - cd, ls, cd ..,mkdir,mkdir{folder name},rm -rf{folder name},touch text.pdf etc
+>3. When googling answers, we can put mdn for professional answers
+>4. You can go to a specific folder or file with the path given. I am waiting for notes of this.
+
+
 3  My "aha" moment is 
 >1. when teacher helped me list the documents on Desktop
 >2. none
