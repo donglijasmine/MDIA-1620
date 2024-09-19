@@ -4,13 +4,13 @@ A *cool* repository for my MDIA 1620 System Operations
 WEEK 3 LEARNINGS
 
 3 My "aha" moment is
->1. xxxxx
->2. xxxxx
->3. xxxxx
+>1. ***git clone*** creates a copy of a repository to my local computer
+>2. ***git add*** adds file to a commit
+>3. ***git push*** pushes local changes to the origin
 
 2 Things that are not clear
->1. xxxxx
->2. xxxxx
+>1. Does console.log mean print this text for me?
+>2. What is true and false?
 
 1 Word for how I am feeling
 >1. Good
