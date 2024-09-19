@@ -3,6 +3,28 @@ A *cool* repository for my MDIA 1620 System Operations
 
 Liang Dongli
 
+19 SEP 2024 LAB 3 ASSIGNMENT
+
+WEEK 3 LEARNINGS - these are edited from file in local computer
+
+3 My "aha" moment is
+
+>1. git clone creates a copy of a repository to my local computer
+>2. git add adds file to a commit
+>3. git push pushes local changes to the origin
+>4. console.log mean print this text for me
+>5. let can create a variable
+
+2 Things that are not clear
+
+>1. let isHungry = true, do you call isHungry a variable? do you call true a boolean?
+>2. let age = 20, do you call "age" a variable? do you call 20 a number?
+>3. let nameVar = dongli, do you call nameVar a variable? do you call dongli a string?
+
+1 Word for how I am feeling
+
+>1. Good
+
 ![Luncheon Meat and Egg Sandwich](https://static5.orstatic.com/userphoto2/photo/1V/1H65/0AI3RWDED90B3699005BEEpx.jpg)
 
 Learnings from the 3 2 1 
@@ -27,9 +49,6 @@ Feedback
 1  Word for how I'm feeling
 >***Stressed***
 
-I LOVE MATCHA
-I AM WRITING AND WRITING AND WRITING.
-I AM ADDING NEW LINES.
-I LOVE LATTE
+
 
 
