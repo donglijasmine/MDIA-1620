@@ -7,10 +7,12 @@ WEEK 3 LEARNINGS
 >1. ***git clone*** creates a copy of a repository to my local computer
 >2. ***git add*** adds file to a commit
 >3. ***git push*** pushes local changes to the origin
+>4. ***console.log*** mean print this text for me
+>5. ***let*** can create a variable
 
 2 Things that are not clear
->1. Does console.log mean print this text for me?
->2. What is true and false?
+>1. None
+>2. None
 
 1 Word for how I am feeling
 >1. Good
