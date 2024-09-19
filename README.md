@@ -11,8 +11,9 @@ WEEK 3 LEARNINGS
 >5. ***let*** can create a variable
 
 2 Things that are not clear
->1. None
->2. None
+>1. let isHungry = true, do you call isHungry a variable? do you call true a boolean?
+>2. let age = 20, do you call "age" a variable? do you call 20 a number?
+>3. let nameVar = dongli, do you call nameVar a variable? do you call dongli a string?
 
 1 Word for how I am feeling
 >1. Good
