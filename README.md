@@ -1,6 +1,20 @@
 # MDIA-1620
 A *cool* repository for my MDIA 1620 System Operations
 
+WEEK 3 LEARNINGS
+
+3 My "aha" moment is
+>1. xxxxx
+>2. xxxxx
+>3. xxxxx
+
+2 Things that are not clear
+>1. xxxxx
+>2. xxxxx
+
+1 Word for how I am feeling
+>1. Good
+
 Liang Dongli
 
 ![Luncheon Meat and Egg Sandwich](https://static5.orstatic.com/userphoto2/photo/1V/1H65/0AI3RWDED90B3699005BEEpx.jpg)
@@ -27,9 +41,5 @@ Feedback
 1  Word for how I'm feeling
 >***Stressed***
 
-I LOVE MATCHA
-I AM WRITING AND WRITING AND WRITING.
-I AM ADDING NEW LINES.
-I LOVE LATTE
 
 
