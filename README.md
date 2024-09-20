@@ -1,6 +1,8 @@
 # MDIA-1620
 A *cool* repository for my MDIA 1620 System Operations
 
+I am hungry now and I look forward to Saturday when I can spend time with my daughter.
+
 WEEK 3 LEARNINGS
 
 3 My "aha" moment is
