@@ -1,6 +1,25 @@
 # MDIA-1620
 A *cool* repository for my MDIA 1620 System Operations
 
+I am hungry now and I look forward to Saturday when I can spend time with my daughter.
+
+WEEK 3 LEARNINGS
+
+3 My "aha" moment is
+>1. ***git clone*** creates a copy of a repository to my local computer
+>2. ***git add*** adds file to a commit
+>3. ***git push*** pushes local changes to the origin
+>4. ***console.log*** mean print this text for me
+>5. ***let*** can create a variable
+
+2 Things that are not clear
+>1. let isHungry = true, do you call isHungry a variable? do you call true a boolean?
+>2. let age = 20, do you call "age" a variable? do you call 20 a number?
+>3. let nameVar = dongli, do you call nameVar a variable? do you call dongli a string?
+
+1 Word for how I am feeling
+>1. Good
+
 Liang Dongli
 
 19 SEP 2024 LAB 3 ASSIGNMENT
@@ -48,7 +67,5 @@ Feedback
    
 1  Word for how I'm feeling
 >***Stressed***
-
-
 
 
