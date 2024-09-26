@@ -33,4 +33,14 @@ let catNum = 5;
 console.log (catName)
 console.log (catNum)
 let stableIntroduction = `Welcome to "${horseName}'s" stable`; 
-let stableIntroduction = "Welcome to " + horseName + " stable";
+console.log (stableIntroduction)
+
+////// LESSON 4 CODE ///////
+let horseNickName ="Charming";
+let horseAge = 5;
+let horseType = "bahkir";
+let horseColor = "brown"
+let horseIntroduction = `My horse is called "${horseNickName}". He is ${horseAge}. His type is ${horseType}, and his color is ${horseColor}.`
+console.log(horseIntroduction)
+let Promo = `You would save ${STABLE_MONTHLY_FEE * 3 * 0.1} with a 10% discount applied to a 3 month stay at your stables.`
+console.log (Promo)
