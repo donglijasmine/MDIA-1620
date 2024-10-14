@@ -77,7 +77,7 @@ console.log(
 let horseNames=[horseName, "Strawberry", "Beans"];
 let horseIntro = `There are ${horseNames.length} horses staying at my stables: ${horseNames[0]}, ${horseNames[1]}, ${horseNames[2]}!`;
 console.log(horseIntro);
-
+///// the horseIntro code above is a better than the one below one because it is easier for reading and more efficient //////
 let differentHorseIntro=
 "There are " +
 horseNames.length +

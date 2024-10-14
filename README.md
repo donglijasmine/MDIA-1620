@@ -69,3 +69,15 @@ Feedback
 >***Stressed***
 
 
+//////LESSON 6/////
+// 3 confusing things
+// 3 things you feel like you have a solid understanding of
+// Analogies that you use to think about things (gif)
+
+
+3 confusing things:
+
+I think I understand all the concepts from week1-week6 so far, but I am not sure if I know how to apply them and it is hard to remember them. The concepts seem vague without real life or professional examples. If some examples can be included in the slides, that will be much easier for understanding how it works and why they are useful. I hope there can be more demonstration of examples and hands on activites during lab so that we can figure out how these "building blocks" are applied.
+
+Using the commands will help me understand and memorise how they are used. The "Cheat sheet" and slides also seem quite vague to me without examples. When I refer back to them, I don't know in what situations or how I will use them. For example, I don't know when I can use +, -, *, "`"
+
