@@ -69,3 +69,24 @@ Feedback
 >***Stressed***
 
 
+//////LESSON 6/////
+// 3 confusing things
+// 3 things you feel like you have a solid understanding of
+// Analogies that you use to think about things (gif)
+
+
+3 confusing things:
+
+I think I understand all the concepts from week1-week6 so far, but I am not sure if I know how to apply them and it is hard to remember them. The concepts seem vague without real life or professional examples. If some examples can be included in the slides, that will be much easier for understanding how it works and why they are useful. I hope there can be more demonstration of examples and hands on activites during lab so that we can figure out how these "building blocks" are applied.
+
+Using the commands will help me understand and memorise how they are used. The "Cheat sheet" and slides also seem quite vague to me without examples. When I refer back to them, I don't know in what situations or how I will use them. 
+
+For example, I don't know when I can use +, -, *, "`". 
+When to use the comparison operators  ===  !==  > and <  >  >= <=
+
+3 things I have solid understanding of:
+- Conditional statements are booleans. They are either true or false. 
+- In if statements, codes will run if the condition evaluates to true
+-In if else statement, if the condition evaluates to false, the else clause is run
+
+I think about things in a figurative way and I can understand abstract concepts well with a master degree in comparative literature. However, this system operation course is like learning an alien language's grammar and I hope to be more exposed to sentences and paragraphs to understand the grammar. 
