@@ -101,4 +101,3 @@ console.log(differentHorseIntro);
 // Analogies that you use to think about things (gif)
 
 
-
