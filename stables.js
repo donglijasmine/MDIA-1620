@@ -304,21 +304,6 @@ feedHorses();
 // Bedtime! Update the function that lets your horses outside so that it also calls them
 // in if it is getting dark. Only the horses that moved should log out a message. Invoke the function.
 
-// Function to move horses outside and call them in if it is getting dark
-
-function keepHorseOutside() {
-  for (let i = 0; i < horses.length; i++) {
-    if (horses[i].isInside) {
-      // Move horse outside if it is already inside
-      horses[i].isInside = true;
-      console.log(`${horses[i].name} has been moved outside.`);
-    } else {
-      // If the horse is already outside, keep them outside
-      horses[i].isInside = false;
-      console.log(`${horses[i].name} is still outside.`);
-    }
-  }
-}
 
 // Function to move horses inside for bedtime when it gets dark
 function moveHorsesToBed(isDark) {
