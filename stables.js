@@ -80,15 +80,15 @@ let availableStalls = 5;
 //------------------------- First day -------------------------//
 
 // **Horse constructor function** //
-function Horse(name, nickname, favoriteTreat, age, monthlyRent, isInside, uniqueProperty1, uniqueProperty2) {
+function Horse(name, nickname, favoriteTreat, age, monthlyRent, isInside, character, feature) {
     this.name = name;
     this.nickname = nickname;
     this.favoriteTreat = favoriteTreat;
     this.age = age;
     this.monthlyRent = monthlyRent;
     this.isInside = isInside;
-    this.uniqueProperty1 = uniqueProperty1;
-    this.uniqueProperty2 = uniqueProperty2;
+    this.character = character;
+    this.feature = feature;
     this.hungry = false; // initialize as not hungry
     
     this.introduce = function() {
@@ -96,7 +96,7 @@ function Horse(name, nickname, favoriteTreat, age, monthlyRent, isInside, unique
     };
 
     this.describeUnique = function() {
-        return `Unique facts about me: ${this.uniqueProperty1} and ${this.uniqueProperty2}.`;
+        return `Unique facts about me: ${this.character} and ${this.feature}.`;
     };
 }
 
@@ -122,14 +122,14 @@ const newHorse = {
     age: 6,
     monthlyRent: 320,
     isInside: true,
-    uniqueProperty1: "glows in sunlight",
-    uniqueProperty2: "loves water",
+    character: "glows in sunlight",
+    feature: "loves water",
     hungry: false,
     introduce: function() {
         return `Hi, I am ${this.name}, also known as ${this.nickname}. I love ${this.favoriteTreat} and I am ${this.age} years old.`;
     },
     describeUnique: function() {
-        return `Unique facts about me: ${this.uniqueProperty1} and ${this.uniqueProperty2}.`;
+        return `Unique facts about me: ${this.character} and ${this.feature}.`;
     }
 };
 horses.push(newHorse);
@@ -148,7 +148,61 @@ horses.push(newHorse);
 //** Reference the data structure of horses **//
 
 console.log(horses);
-
+// [
+//  Horse {
+//   name: 'Lightning',
+//    nickname: 'Storm',
+//    favoriteTreat: 'carrots',
+//   age: 5,
+//    monthlyRent: 300,
+//    isInside: true,
+//    character: 'fastest runner',
+//    feature: 'blue eyes',
+//    hungry: false,
+//    introduce: [Function (anonymous)],
+//    describeUnique: [Function (anonymous)]
+//  },
+//  Horse {
+//    name: 'Sand',
+//    nickname: 'Sandy',
+//    favoriteTreat: 'apples',
+//    age: 7,
+//    monthlyRent: 350,
+//    isInside: true,
+//   character: 'loves jumping',
+//    feature: 'brown mane',
+//    hungry: false,
+//    introduce: [Function (anonymous)],
+//    describeUnique: [Function (anonymous)]
+//  },
+//  Horse {
+//    name: 'Daisy',
+//    nickname: 'Daze',
+//    favoriteTreat: 'strawberries',
+//    age: 4,
+//    monthlyRent: 280,
+//    isInside: false,
+//    character: 'gentle demeanor',
+//    feature: 'white spots',
+//    hungry: false,
+//    introduce: [Function (anonymous)],
+//    describeUnique: [Function (anonymous)]
+//  },
+//  {
+//    name: 'Comet',
+//    nickname: 'Commy',
+//    favoriteTreat: 'hay',
+//    age: 6,
+//    monthlyRent: 320,
+//    isInside: true,
+//    character: 'glows in sunlight',
+//    feature: 'loves water',
+//    hungry: false,
+//    introduce: [Function: introduce],
+//    describeUnique: [Function: describeUnique]
+//  }
+//]
+//
 
 //---------------------- Growing business ----------------------//
 
@@ -208,19 +262,23 @@ for (let i = 0; i < horses.length; i++) {
 // Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
 // the return value outside of the function.
 
-// ** Function to return nickname of a horse ** //
+
+// Function to return the nickname of a chosen horse by its name
 function getHorseNickname(horseName) {
-    for (let horse of horses) {
-        if (horse.name === horseName) {
-            return horse.nickname;
-        }
-    }
-    return null;
+  for (let i = 0; i < horses.length; i++) { 
+      if (horses[i].name === horseName) {
+          return horses[i].nickname; 
+      }
+  }
+  return "Horse not found"; // Return a fallback message if no match is found
 }
 
-//**invoke the function **//
-console.log(`Nickname of Sand: ${getHorseNickname("Sand")}`);
+// Invoking the function
+let chosenHorseName = "Sand"; // Replace with the desired horse name
+let nickname = getHorseNickname(chosenHorseName);
 
+// Logging the return value outside the function
+console.log(`The nickname of ${chosenHorseName} is: ${nickname}`);
 
 
 //------------------------- Day to day operations -------------------------//
@@ -230,15 +288,13 @@ console.log(`Nickname of Sand: ${getHorseNickname("Sand")}`);
 
 // Function referencing a unique property
 function checkUniqueProperty(horseName) {
-    for (let horse of horses) {
-        if (horse.name === horseName) {
-            console.log(horse.describeUnique());
-            return;
-        }
-    }
-    console.log("Horse not found.");
-}
-
+    for (let i = 0; i < horses.length; i++) {
+        if (horses [i].name === horseName) {
+            console.log(`The unique things about ${chosenHorseName} is ${character} and ${feature}`);
+        } else {console.log("Horse not found.");
+      }
+   }
+  }
 // ** Invoke the function ** //
 checkUniqueProperty("Daisy");
 checkUniqueProperty("Angel");
