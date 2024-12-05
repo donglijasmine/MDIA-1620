@@ -55,31 +55,16 @@
 
 //------------------------- Seting up shop -------------------------//
 
-// Initialize a variable called "horses" that will store the horses in your stable.
-// Create a variable and use it to store a message visitors to the stable.
-// Create a variable and use it to store the cost of a late payment fee.
-// Create a variable and use it to store the number of available stalls in the stable.
 
 let horses = [];
 const visitorMessage = "Welcome to Wonderland stable! Enjoy your visit.";
-const latePaymentFee = 50; // in dollars
+const latePaymentFee = 50; 
 let availableStalls = 5;
 
-//------------------------- First day -------------------------//
-
-// Using a constructor, add at least 3 horses to your stables.
-
-// The horse should have the following properties:
-// - name, nickname, favorite treat (string)
-// - age, monthly rent (number)
-// - location (boolean inside/outside)
-// - two unique properties of your choice (use any primitive)
-// - a method that introduces your horse and references at least 3 object properties.
-// - a second, unique method of your choice
 
 //------------------------- First day -------------------------//
 
-// **Horse constructor function** //
+
 function Horse(name, nickname, favoriteTreat, age, monthlyRent, isInside, character, feature) {
     this.name = name;
     this.nickname = nickname;
@@ -104,7 +89,6 @@ function Horse(name, nickname, favoriteTreat, age, monthlyRent, isInside, charac
 // Store the horses you've just created in your "horses" variable.
 
 
-// **Adding initial horses** //
 horses.push(new Horse("Lightning", "Storm", "carrots", 5, 300, true, "fastest runner", "blue eyes" ));
 horses.push(new Horse("Sand", "Sandy", "apples", 7, 350, true, "loves jumping", "brown mane"));
 horses.push(new Horse("Daisy", "Daze", "strawberries", 4, 280, false, "gentle demeanor", "white spots"));
@@ -247,20 +231,17 @@ let treatToCheck = "apples";
 
 // Loop through the array using a loop
 for (let i = 0; i < horses.length; i++) {
-  let horse = horses[i]; // Access the current horse in the array
+  let horse = horses[i]; 
 
   if (horse.favoriteTreat === treatToCheck) {
     console.log(`${horse.name} likes ${treatToCheck}!`);
-    break; // Exit the loop when a horse that likes the treat is found
+    break; 
   } else {
     console.log(`${horse.name} does not like ${treatToCheck}.`);
   }
 }
 
 
-
-// Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
-// the return value outside of the function.
 
 
 // Function to return the nickname of a chosen horse by its name
